@@ -1,0 +1,9 @@
+<div ng-controller="instagramHashCtrl" class="module instagramhash">
+
+  <koa-item ng-if="instagramhash.message">{{instagramhash.message}}</koa-item>
+
+  <koa-card image="{{item.images.standard_resolution.url}}" ng-repeat="item in instagramhash.items">
+    <div class="card-content" ng-if="instagramhash.modulescope.showDescription">{{item.caption.text}}</div>
+  </koa-card>
+
+</div>
