@@ -67,7 +67,7 @@
     "market": true
   },
   "images": {
-    "list": "modules/instagramhash/instagram-hash_list.png",
+    "list": "modules/instagramhash/images/instagram-hash_list.png",
     "screenshots": [
       "modules/instagramhash/images/Instagramhash_screenshot01.png",
       "modules/instagramhash/images/Instagramhash_screenshot02.png"
