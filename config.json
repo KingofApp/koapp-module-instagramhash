@@ -62,9 +62,9 @@
     }
   }],
   "showOn": {
-    "dragDrop": true,
-    "menu": true,
-    "market": true
+    "dragDrop": false,
+    "menu": false,
+    "market": false
   },
   "images": {
     "list": "modules/instagramhash/images/instagram-hash_list.png",
