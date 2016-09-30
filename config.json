@@ -15,7 +15,7 @@
   },
   "icon": "instagram",
   "type": "A",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "King of App",
   "category": [
     "social"
@@ -62,9 +62,9 @@
     }
   }],
   "showOn": {
-    "dragDrop": true,
-    "menu": true,
-    "market": true
+    "dragDrop": false,
+    "menu": false,
+    "market": false
   },
   "images": {
     "list": "modules/instagramhash/images/instagram-hash_list.png",
@@ -74,6 +74,6 @@
     ],
     "popover": "modules/instagramhash/images/instagram-hash_popover.png",
     "banner": "modules/instagramhash/images/instagram-hash_popover.png",
-    "logo": "modules/instagramhash/images/instagram-hash-logo.png"
+    "logo": "modules/instagramhash/images/instagramhash-logo.png"
   }
 }
