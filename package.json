@@ -1,6 +1,6 @@
 {
   "name": "koapp-module-instagramhash",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Comparte las fotos de un hashtag de Instagram dentro de tu app.",
   "directories": {
     "test": "test"
