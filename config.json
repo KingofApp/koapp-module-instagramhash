@@ -1,79 +1,83 @@
 {
-  "name": "Instagram Hash",
-  "identifier": "instagramhash",
-  "description": {
-    "es-ES": "Instagram es la herramienta ideal para compartir tus momentos inolvidables. Sincroniza este módulo con tu aplicación para acercarte a tus usarios y visualizar tus ideas. Configúralo entrando la url de tu perfil, por ejemplo http://instagram.com/MiPerfil, así como el access token que se consigue en el siguiente enlace: https://instagram.com/developer/authentication/",
-    "en-US": "Instagram is the perfect tool to share your unforgettable moments. Sync this module to your application to get closer to the customers and visualize your ideas. Configure it by entering the url of your profile, for example  http://instagram.com/MiPerfil, as well as the access token that you can obtain from https://instagram.com/developer/authentication/"
-  },
-  "documentation": {
-    "es-ES": "modules/instagramhash/documentation/es_ES.md",
-    "en-US": "modules/instagramhash/documentation/en_US.md"
-  },
-  "descriptionShort": {
-    "es-ES": "Comparte tus momentos inolvidables sincronizando Instagram con tu app.",
-    "en-US": "Share your unforgettable moments by syncing Instagram to your app."
-  },
-  "icon": "instagram",
-  "type": "A",
-  "version": "1.0.7",
-  "author": "King of App",
-  "category": [
-    "social"
-  ],
-  "price": 0,
-  "subscription": false,
-  "canContain": false,
-  "platforms": [
-    "android",
-    "ios",
-    "windows"
-  ],
-  "view": "modules/instagramhash/index.html",
-  "files": [
-    "modules/instagramhash/controller.js"
-  ],
-  "scope": {
-    "accesstoken": "",
-    "hashtag": "",
-    "showDescription": true
-  },
-  "config": [{
-    "type": "input",
-    "key": "accesstoken",
-    "templateOptions": {
-      "label": "accesstoken",
-      "required": true,
-      "description": "token de acceso"
-    }
-  }, {
-    "type": "input",
-    "key": "hashtag",
-    "templateOptions": {
-      "description": "hashtag",
-      "required": true,
-      "label": "hashtag"
-    }
-  }, {
-    "key": "showDescription",
-    "type": "checkbox",
-    "templateOptions": {
-      "description": "Show descriptions",
-      "label": "Descriptions"
-    }
-  }],
-  "showOn": {
-    "dragDrop": false,
-    "menu": false,
-    "market": false
-  },
-  "images": {
-    "list": "modules/instagramhash/images/instagram-hash_list.png",
-    "screenshots": [
-      "modules/instagramhash/images/Instagramhash_screenshot01.png",
-      "modules/instagramhash/images/Instagramhash_screenshot02.png"
+    "name": "Instagram Hash",
+    "identifier": "instagramhash",
+    "description": {
+        "es-ES": "Instagram es la herramienta ideal para compartir tus momentos inolvidables. Sincroniza este módulo con tu aplicación para acercarte a tus usarios y visualizar tus ideas. Configúralo entrando la url de tu perfil, por ejemplo http://instagram.com/MiPerfil, así como el access token que se consigue en el siguiente enlace: https://instagram.com/developer/authentication/",
+        "en-US": "Instagram is the perfect tool to share your unforgettable moments. Sync this module to your application to get closer to the customers and visualize your ideas. Configure it by entering the url of your profile, for example  http://instagram.com/MiPerfil, as well as the access token that you can obtain from https://instagram.com/developer/authentication/"
+    },
+    "documentation": {
+        "es-ES": "modules/instagramhash/documentation/es_ES.md",
+        "en-US": "modules/instagramhash/documentation/en_US.md"
+    },
+    "descriptionShort": {
+        "es-ES": "Comparte tus momentos inolvidables sincronizando Instagram con tu app.",
+        "en-US": "Share your unforgettable moments by syncing Instagram to your app."
+    },
+    "icon": "instagram",
+    "type": "A",
+    "version": "1.0.8",
+    "author": "King of App",
+    "category": [
+        "social"
     ],
-    "popover": "modules/instagramhash/images/instagram-hash_popover.png",
-    "banner": "modules/instagramhash/images/instagram-hash_popover.png",
-    "logo": "modules/instagramhash/images/instagramhash-logo.png"
-  }
+    "price": 0,
+    "subscription": false,
+    "canContain": false,
+    "platforms": [
+        "android",
+        "ios",
+        "windows"
+    ],
+    "view": "modules/instagramhash/index.html",
+    "files": [
+        "modules/instagramhash/controller.js"
+    ],
+    "scope": {
+        "accesstoken": "",
+        "hashtag": "",
+        "showDescription": true
+    },
+    "config": [
+        {
+            "type": "input",
+            "key": "accesstoken",
+            "templateOptions": {
+                "label": "accesstoken",
+                "required": true,
+                "description": "token de acceso"
+            }
+        },
+        {
+            "type": "input",
+            "key": "hashtag",
+            "templateOptions": {
+                "description": "hashtag",
+                "required": true,
+                "label": "hashtag"
+            }
+        },
+        {
+            "key": "showDescription",
+            "type": "checkbox",
+            "templateOptions": {
+                "description": "Show descriptions",
+                "label": "Descriptions"
+            }
+        }
+    ],
+    "showOn": {
+        "dragDrop": false,
+        "menu": false,
+        "market": false
+    },
+    "images": {
+        "list": "modules/instagramhash/images/instagram-hash_list.png",
+        "screenshots": [
+            "modules/instagramhash/images/Instagramhash_screenshot01.png",
+            "modules/instagramhash/images/Instagramhash_screenshot02.png"
+        ],
+        "popover": "modules/instagramhash/images/instagram-hash_popover.png",
+        "banner": "modules/instagramhash/images/instagram-hash_popover.png",
+        "logo": "modules/instagramhash/images/instagramhash-logo.png"
+    }
 }
